@@ -10,6 +10,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Which bundler?
-          command: puts "はろー"
+          name: Which ruby?
+          command: ruby --version
       - ruby/bundle-install
