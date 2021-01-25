@@ -13,4 +13,7 @@ jobs:
       - run:
           name: Which bundler?
           command: bundle -v
+      - run:
+          name: Rubocop
+          command: bundle exec rubocop
       - ruby/bundle-install
